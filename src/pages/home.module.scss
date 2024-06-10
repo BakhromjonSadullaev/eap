@@ -1,0 +1,17 @@
+.nav {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  .line {
+    height: 2px;
+    background-color: #f4f5f6;
+  }
+}
+
+.car_category {
+  text-align: center;
+  padding: 5rem 0;
+  p {
+    margin-top: 1rem;
+    font-weight: 500;
+  }
+}

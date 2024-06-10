@@ -1,0 +1,52 @@
+@import "../../globals.scss";
+
+.wrapper {
+  .container {
+    .dropdown {
+      max-width: 1200px;
+      margin: auto;
+      margin-top: 2rem;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+      .mtab {
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid $blue-color;
+
+        .pr {
+          padding: 20px 25px;
+          color: $grey-color;
+          cursor: pointer;
+          font-weight: 400;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          &:hover {
+            background-color: $grey-hover;
+          }
+
+          .ic {
+            font-size: 28px;
+            font-weight: 600;
+          }
+        }
+        .active {
+          background-color: $blue-color;
+          color: white;
+        }
+      }
+
+      .table {
+        border: 1px solid red;
+        width: 100%;
+        border-collapse: collapse;
+
+        td {
+          border: 2px solid $grey-hover;
+          width: 200px;
+          padding: 1rem;
+        }
+      }
+    }
+  }
+}
